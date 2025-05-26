@@ -20,7 +20,7 @@ To set up and run the landing page, follow these steps:
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/Abhishhek-Verma/Elevate_Abhishek>
    cd responsive-landing-page
    ```
 
@@ -46,6 +46,3 @@ To set up and run the landing page, follow these steps:
 
 To test the responsiveness of the landing page, resize the browser window or use the developer tools to simulate different devices. The navigation menu will collapse on smaller screens for better usability.
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
