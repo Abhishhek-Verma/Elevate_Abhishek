@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elevate - Your Success Partner</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="container">
+        <div class="nav-brand">
+          <img src="images/logo.jpg" alt="Elevate Logo" style="height: 40px" />
+          <h2>Elevate</h2>
+        </div>
+        <nav class="nav">
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+      <section class="hero" id="home">
+        <div class="container">
+          <div class="hero-content">
+            <h1>Elevate Your Business to New Heights</h1>
+            <p>
+              Transform your ideas into reality with our innovative solutions.
+              We help businesses grow, adapt, and succeed in today's competitive
+              market.
+            </p>
+            <a href="#contact" class="cta-button">Get Started Today</a>
+          </div>
+          <div class="hero-image">
+            <div class="placeholder-image">
+              <i class="fas fa-rocket"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <h3>Elevate</h3>
+            <p>Empowering businesses worldwide</p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Elevate. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      const hamburger = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      });
+
+      // Close mobile menu when clicking on a link
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          hamburger.classList.remove("active");
+          navLinks.classList.remove("active");
+        });
+      });
+    </script>
+  </body>
+</html>
