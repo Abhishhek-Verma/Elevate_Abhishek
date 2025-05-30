@@ -1,0 +1,110 @@
+/* Base styles */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f6f8fa;
+  color: #222;
+}
+
+header {
+  background: #2d3e50;
+  color: #fff;
+  padding: 32px 0 16px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+header h1 {
+  margin: 0 0 12px 0;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+nav ul li a:hover {
+  background: #1a2533;
+}
+
+main {
+  max-width: 900px;
+  margin: 32px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: #fff;
+  margin-bottom: 28px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  padding: 28px 24px;
+}
+
+section h2 {
+  margin-top: 0;
+  color: #2d3e50;
+  font-size: 1.5rem;
+}
+
+footer {
+  background: #2d3e50;
+  color: #fff;
+  text-align: center;
+  padding: 18px 0;
+  margin-top: 40px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  header {
+    padding: 20px 0 10px 0;
+  }
+  header h1 {
+    font-size: 1.3rem;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+  main {
+    margin: 18px auto;
+    padding: 0 8px;
+  }
+  section {
+    padding: 16px 8px;
+  }
+  section h2 {
+    font-size: 1.1rem;
+  }
+  footer {
+    font-size: 0.95rem;
+    padding: 12px 0;
+  }
+}
+
+/* Make images responsive if you add any */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
