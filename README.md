@@ -1,6 +1,6 @@
 # Elevate_Abhishek
 
-This repository was created as part of my internship application for the **Web Development Internship** at **Elevate Labs**.
+This repository was created as part of my internship application for the **Web Development Internship** at **Elevate Labs**..
 
 ## Purpose
 
