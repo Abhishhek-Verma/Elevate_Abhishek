@@ -1,0 +1,76 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.12);
+  padding: 36px 32px 28px 32px;
+}
+
+h1 {
+  text-align: center;
+  color: #2d3a4b;
+  margin-bottom: 32px;
+  letter-spacing: 1px;
+}
+
+.user {
+  border-bottom: 1px solid #e3e8ee;
+  padding: 18px 0;
+  transition: background 0.2s;
+  border-radius: 8px;
+}
+
+.user:last-child {
+  border-bottom: none;
+}
+
+.user h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.25em;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.user p {
+  margin: 3px 0;
+  color: #374151;
+  font-size: 1.05em;
+}
+
+.reload-button,
+#reload-button {
+  display: block;
+  width: 100%;
+  padding: 13px 0;
+  margin: 24px 0 12px 0;
+  background: linear-gradient(90deg, #2563eb 60%, #38b6ff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+}
+
+.reload-button:hover,
+#reload-button:hover {
+  background: linear-gradient(90deg, #38b6ff 60%, #2563eb 100%);
+}
+
+.error {
+  color: #e74c3c;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.1em;
+  font-weight: 500;
+}
